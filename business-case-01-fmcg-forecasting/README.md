@@ -1,6 +1,11 @@
 **FMCG Multi-Country Sales Dataset (1.1M Rows)
 Advanced Business Case : Demand Planning, Forecasting & FMCG Analytics**
 
+🔗 **Dataset Kaggle :** https://www.kaggle.com/datasets/robertocarlost/fmcg-multi-country-sales-dataset
+
+📁 **GitHub Repository (Business Cases SCM & Demand Planning)**  
+https://github.com/Carlos25-afq/business-cases-scm-demand-planning
+
 
 🧩 1. **Overview**
 
@@ -375,4 +380,5 @@ This dataset is ideal for:
 - Kaggle Competitions
 
 - Supply Chain Hackathons
+
 
