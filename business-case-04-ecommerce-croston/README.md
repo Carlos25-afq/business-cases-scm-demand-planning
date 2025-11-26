@@ -3,75 +3,69 @@
 
 ---
 
-## 🛒 1. Contexte métier (scénario 100% réel)
+## 🛒 1. Contexte métier
 
-Vous êtes **Demand Planner E-commerce** dans une marketplace internationale opérant dans **12 pays**.  
-Votre équipe gère **plus de 2 500 SKUs longue traîne**, typiques du e-commerce :
+Vous êtes **Demand Planner E-commerce** dans une marketplace opérant dans **12 pays**.  
+Votre portefeuille comprend **2 500 produits longue traîne**, typiques du e-commerce :
 
 - Produits saisonniers  
-- Produits très spécialisés  
-- Accessoires rarement commandés  
+- Produits premium à faible rotation  
+- Accessoires niche  
 - Pièces détachées  
-- Articles premium à faible rotation  
+- Articles spécialisés
 
-La plupart des produits présentent une **demande intermittente**, caractérisée par :
+Plus de **70% des SKUs ont une demande intermittente** :
 
 - Beaucoup de zéros  
-- Quelques pics irréguliers  
-- Ventes imprévisibles  
-- Faible répétabilité  
+- Quelques pics isolés  
+- Variabilité extrême  
+- Sensibilité aux promotions
 
-Les modèles classiques (ARIMA, Holt-Winters) **échouent** complètement dans ce contexte.  
-D’où l’utilisation de **Croston** et ses variantes pour améliorer la précision.
+Dans ce contexte, les modèles classiques (ARIMA, Holt-Winters, ETS) **échouent**.  
+Vous devez identifier un modèle robuste pour prédire la demande faible, irrégulière, imprévisible.
 
 ---
 
 ## 🎯 2. Objectifs du Business Case
 
-### 🔹 Classification des SKUs selon leur pattern :
-- Intermittent  
-- Lumpy  
-- Smooth  
-- Erratic  
+### 🔍 Modélisation & Analyse
+- Classifier les SKUs selon leur **pattern de demande** :  
+  *intermittent, lumpy, smooth, erratic*
+- Implémenter les modèles spécialisés :  
+  - Croston  
+  - SBA (Syntetos-Boylan Approximation)  
+  - TSB (Teunter-Syntetos-Babai)
+- Comparer avec des modèles baseline :  
+  - Naive  
+  - Simple Exponential Smoothing  
+  - Moving Average  
+- Évaluer la performance avec les KPIs recommandés :
+  - MAE, RMSE  
+  - sMAPE  
+  - MASE  
+  - MAAPE  
+  - Bias
 
-### 🔹 Implémenter les modèles intermittents :
-- **Croston original**  
-- **SBA (Syntetos-Boylan Approximation)**  
-- **TSB (Teunter-Syntetos-Babai)**  
+### 📊 Production analytique
+- Construire un **dashboard Power BI** avec :  
+  - Forecast accuracy  
+  - Classification intermittente  
+  - Review SKU-level  
+  - Impact inventaire / stockouts  
+  - Simulation Safety Stock
 
-### 🔹 Comparer avec des modèles baseline :
-- Naive (t = t-1)  
-- Simple Exponential Smoothing  
-- Moving Average (MA3, MA7)  
-
-### 🔹 Évaluer les performances via :
-- MAE  
-- RMSE  
-- MASE  
-- sMAPE  
-- MAAPE  
-- Bias  
-
-### 🔹 Construire un dashboard Power BI/Excel pour visualiser :
-- Performance par modèle  
-- Classification intermittente  
-- Lead time distribution  
-- Impact inventaire & coût de stock  
-
-### 🔹 Proposer des recommandations S&OE / S&OP :
-- Meilleur modèle par catégorie  
-- Ajustement inventaire  
-- Optimisation promos  
-- Phase-out produits non rentables  
+### 🧭 Recommandations opérationnelles
+- Sélection du **meilleur modèle par catégorie**
+- Ajustement des **paramètres S&OE/S&OP**
+- Optimisation inventaire (min/max, safety stock)
+- Nettoyage des SKUs non rentables
 
 ---
 
-## 📁 3. Structure des données (réaliste et complète)
+## 📁 3. Structure des données
 
-### ✔ Fichier 1 — `SALES_ECOM_INTERMITTENT.csv`
-
-**Granularité : journalière — 24 mois — 2 500 SKUs**
-
+### ✔ Fichier 1 — `sales_ecom_intermitent.csv`  
+**24 mois × 3000 SKUs (~2M lignes)**  
 Colonnes :
 
 - Date  
@@ -83,17 +77,18 @@ Colonnes :
 - Price  
 - Promo_Flag  
 - Stockout_Flag  
-- Channel (web, app, marketplace-partner)
+- Channel  
 
-#### 🔍 Demand Features réalistes :
-- 70% des SKUs : plus de 50% de zéros  
-- 20% : pics irréguliers  
-- 5% : fortes saisonnalités (Noël, Été, Back-to-school)  
-- 20% : sensibles aux promotions  
+**Caractéristiques du dataset :**
+- 70% de valeurs nulles (demande intermittente)
+- Pics irréguliers
+- Promotions aléatoires
+- Stockouts simulés
+- Pays multi-canaux
 
 ---
 
-### ✔ Fichier 2 — `SKU_MASTER_ECOM.xlsx`
+### ✔ Fichier 2 — `sku_master_ecom.xlsx`
 
 - SKU  
 - Name  
@@ -101,12 +96,12 @@ Colonnes :
 - Subcategory  
 - Brand  
 - Launch_Date  
-- Lifestage (new, mature, fading)  
+- Lifestage  
 - Discontinuation_Flag  
 
 ---
 
-### ✔ Fichier 3 — `INVENTORY_ECOM.csv`
+### ✔ Fichier 3 — `inventory_ecom.csv`
 
 - Date  
 - SKU  
@@ -117,89 +112,87 @@ Colonnes :
 
 ---
 
-### ✔ Fichier 4 — `MARKETING_CALENDAR.csv`
+### ✔ Fichier 4 — `marketing_calendar.csv`
 
 - Date  
 - Campaign_Name  
-- Campaign_Type (email, push, social, partner promo)  
+- Campaign_Type  
 - SKU_Targeted  
 - Discount_pct  
 
 ---
 
-## 🧠 4. Modèles à implémenter (Python + Excel + Power BI)
+## 🧠 4. Modèles à implémenter
 
-### 🔹 1. Méthode de Croston
-Sépare deux composantes :
-- L’intervalle moyen entre ventes  
-- La quantité vendue lors des ventes non-nulles  
+### 🔹 Croston Method
+Sépare :
+- l’intervalle entre ventes  
+- la quantité vendue (> 0)
 
-**Formule :**  
-Prévision = *intervalle estimé* × *demande estimée*
-
----
-
-### 🔹 2. SBA — Syntetos-Boylan Approximation
-Version améliorée de Croston :
-- Correction du biais  
-- Généralement meilleure sur demande intermittente  
+Formule :  
+**Forecast = Demand × Interval**
 
 ---
 
-### 🔹 3. TSB — Teunter-Syntetos-Babai
+### 🔹 SBA (Syntetos-Boylan Approximation)
+Correctif de Croston → **moins biaisé**, souvent supérieur.
+
+---
+
+### 🔹 TSB (Teunter-Syntetos-Babai)
 Modélise :
-- La probabilité d’occurrence d'une vente  
-- La taille de la vente  
-Excellent pour les séries **avec beaucoup de zéros**.
+- la probabilité d’occurrence  
+- la taille de la vente
+
+**Excellente performance quand la série contient énormément de zéros.**
 
 ---
 
-## 🧮 5. Modèles baseline pour comparaison
+## 🧮 5. Modèles baseline
 
-### 🔹 Naive (t = t-1)
-Indispensable pour calculer le **MASE**.
+- Naive (t = t-1)  
+- Simple Exponential Smoothing (SES)  
+- Moving Average (MA3, MA7)  
 
-### 🔹 Simple Exponential Smoothing
-Modèle baseline simple.
-
-### 🔹 Moving Average (MA3, MA7)
-Utilisé pour séries légèrement saisonnières.
+**Naive est indispensable** pour le calcul du MASE.
 
 ---
 
-## 📊 6. KPIs d’évaluation (Forecast accuracy)
+## 📊 6. KPIs d’évaluation
 
-| KPI     | Pourquoi ? |
-|---------|------------|
-| **MAE** | Facile à expliquer au business |
-| **RMSE** | Punit les grosses erreurs |
-| **MASE** | Recommandé pour séries intermittentes |
-| **sMAPE** | Stable en low-volume |
-| **MAAPE** | Évite les problèmes sur faibles ventes |
+| KPI | Description |
+|------|-------------|
+| **MAE** | Interprétation simple, niveau erreur moyen |
+| **RMSE** | Sensible aux très gros écarts |
+| **MASE** | Standard pour séries intermittentes |
+| **sMAPE** | Stable sur faibles volumes |
+| **MAAPE** | Renforcé contre les distorsions en low-demand |
 | **Bias** | Sur- ou sous-prévision |
 
 ---
 
-## 📦 7. Tâches détaillées du Business Case
+## 📦 7. Tâches du Business Case
+
+---
 
 ### 🔷 **Tâche 1 — Data Cleaning & Preprocessing**
 
 Actions :
-- Normaliser les dates  
-- Supprimer SKUs à 0 ventes sur 24 mois  
-- Calculer intervalles entre ventes  
-- Détecter promotions & ruptures  
-- Créer le label **SKU Demand Pattern**  
+- Formatage des dates  
+- Suppression SKUs sans ventes  
+- Calcul ADI, CV²  
+- Détection promotions et ruptures  
+- Label : **SKU Demand Pattern**
 
-🎁 **Livrables :**
-- Notebook : `cleaning.ipynb`  
-- Dataset : `sales_cleaned.csv`
+Livrables :
+- `cleaning.ipynb`  
+- `sales_cleaned.csv`
 
 ---
 
-### 🔷 **Tâche 2 — Demand Pattern Classification**
+### 🔷 **Tâche 2 — Classification Intermittente**
 
-Utiliser les règles :
+Règles :
 
 ADI < 1.32 & CV² < 0.49 → smooth
 ADI > 1.32 & CV² < 0.49 → erratic
@@ -207,55 +200,51 @@ ADI < 1.32 & CV² > 0.49 → intermittent
 ADI > 1.32 & CV² > 0.49 → lumpy
 
 
-
-🎁 **Livrables :**
-- Tableau de classification  
-- Graphiques ADI vs CV²  
+Livrables :
+- `pattern_classification.ipynb`  
+- Scatterplot ADI vs CV²  
 
 ---
 
 ### 🔷 **Tâche 3 — Implémentation Croston, SBA, TSB**
 
-En Python :
+Méthodes Python :
 - `croston()`  
 - `sba()`  
-- `tsb()`  
+- `tsb()`
 
-Hypothèses :  
-`alpha = 0.1, 0.2, 0.3`
-
-🎁 **Livrables :**
-- Notebook : `forecasting_intermitent.ipynb`  
+Livrables :
+- `forecasting_intermitent.ipynb`  
 - `forecast_results.csv`
 
 ---
 
-### 🔷 **Tâche 4 — Benchmark vs Naive**
+### 🔷 **Tâche 4 — Benchmark Global**
 
-Comparer :
+Comparaison modèles :
 - Croston  
 - SBA  
 - TSB  
 - Naive  
 - SES  
 
-🎁 **Livrables :**
-- Tableau performance MAE/RMSE/MASE  
-- Graphiques forecast vs réel  
+Livrables :
+- `benchmark_models.ipynb`  
+- Tableau MAE/RMSE/MASE  
 
 ---
 
-### 🔷 **Tâche 5 — Impact sur Inventaire**
+### 🔷 **Tâche 5 — Analyse Inventaire**
 
-Analyse :
-- Safety stock recommandé  
-- Variabilité de la demande  
-- Stockouts causés par mauvais forecast  
-- Reorder quantity optimisé  
+Calcul :
+- Safety Stock  
+- Service level  
+- Lost sales  
+- Impact stockouts
 
-🎁 **Livrables :**
-- Tableau de Safety Stock  
-- "Optimal Reorder Quantity per SKU"
+Livrables :
+- Rapport inventaire  
+- Fichier Safety Stock  
 
 ---
 
@@ -263,27 +252,27 @@ Analyse :
 
 Pages recommandées :
 
-#### 📍 Page 1 — Overview
+**Page 1 — Overview**
 - Total SKUs  
 - % intermittent  
-- Forecast accuracy global  
-- Top 20 SKUs les + imprévisibles  
+- Accuracy globale  
+- Top SKUs imprévisibles  
 
-#### 📍 Page 2 — Forecasting Comparison
-- Boxplots MASE par modèle  
-- Tableau SKU / Meilleur modèle  
-- Graphiques SKU-level  
+**Page 2 — Forecast Comparison**
+- Boxplots MASE  
+- Winner Model per SKU  
+- Visualisations SKU-level  
 
-#### 📍 Page 3 — Inventory Impact
-- Lost sales  
+**Page 3 — Inventory Impact**
+- Lost Sales  
 - Stockouts  
-- Safety stock simulation  
+- Safety Stock Simulation  
 
-#### 📍 Page 4 — Recommendations
-- Synthèse S&OP  
+**Page 4 — Recommendations**
+- S&OP Summary  
 
-🎁 **Livrable :**
-- `dashboard_ecommerce.pbix`
+Livrable :
+- `ecommerce_croston.pbix`
 
 ---
 
@@ -291,25 +280,36 @@ Pages recommandées :
 
 Inclure :
 - Quand utiliser Croston, SBA ou TSB  
-- Intégration dans le cycle S&OE / S&OP  
-- Produits à retirer du catalogue  
-- Réduction lead time / promos  
-- Plan d’optimisation inventaire  
+- Comment intégrer au cycle S&OE / S&OP  
+- Nettoyage du catalogue  
+- Promos & pricing  
+- Réduction lead time  
 
-🎁 **Livrable :**  
-- PDF **"S&OP Recommendations"**
+Livrable :
+- PDF **S&OP Recommendations**
 
 ---
 
-## 💼 8. Jeux de données attendus (à générer)
+## 💼 8. Datasets générés automatiquement
 
-- 24 mois  
-- 2 000–3 000 SKUs  
-- 40–70% valeurs nulles  
+- **24 mois, 3000 SKUs**  
+- Série chronologique multi-pays  
+- Très forte intermittence  
 - Promotions irrégulières  
-- Prix fluctuants  
-- Stockouts réels  
-- Marketing calendar  
+- Stockouts simulés  
+- Données prêtes pour Power BI, Python, Excel  
 
 ---
+
+---
+
+## ✨ Auteur
+
+**Roberto Carlos TIENTCHEU**  
+*Demand & Supply Chain Analyst — Data & Forecasting*  
+📧 tnrc.2025@gmail.com  
+
+---
+
+
 
