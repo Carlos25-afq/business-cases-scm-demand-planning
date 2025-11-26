@@ -1,0 +1,35 @@
+Retailer,Country,Channel,Format,Contract_Type,Listing_Fees
+Carrefour,France,Modern Trade,Hypermarket,Annual,35650.3
+Leclerc,France,Modern Trade,Supermarket,Promo-based,9809.46
+Intermarché,France,Modern Trade,Hypermarket,Listing Only,26759.55
+Auchan,France,E-Commerce,Supermarket,Annual,33491.81
+Edeka,Germany,HoReCa,Supermarket,Promo-based,44789.29
+Rewe,Germany,Modern Trade,Hypermarket,Promo-based,23496.28
+Lidl,Germany,E-Commerce,Hard Discount,Annual,15659.18
+Aldi,Germany,Traditional Trade,Hypermarket,Promo-based,24068.22
+Tesco,United Kingdom,Traditional Trade,Hypermarket,Promo-based,25329.55
+Sainsbury's,United Kingdom,Modern Trade,Hypermarket,Promo-based,43825.87
+Asda,United Kingdom,Modern Trade,Hypermarket,Annual,33888.72
+Aldi UK,United Kingdom,Traditional Trade,Supermarket,Annual,22590.77
+Coop,Italy,Modern Trade,Supermarket,Listing Only,11139.79
+Conad,Italy,Traditional Trade,Supermarket,Annual,37291.9
+Esselunga,Italy,Traditional Trade,Hard Discount,Annual,9684.93
+Mercadona,Spain,Traditional Trade,Supermarket,Annual,8573.87
+Dia,Spain,Modern Trade,Hard Discount,Annual,19551.72
+Carrefour ES,Spain,Modern Trade,Supermarket,Annual,28357.69
+Albert Heijn,Netherlands,Modern Trade,Convenience,Annual,29300.54
+Jumbo,Netherlands,E-Commerce,Supermarket,Annual,19595.02
+Biedronka,Poland,Modern Trade,Supermarket,Listing Only,34782.76
+Lidl PL,Poland,Modern Trade,Convenience,Annual,7706.41
+Colruyt,Belgium,Modern Trade,Hard Discount,Annual,36050.22
+Delhaize,Belgium,Modern Trade,Supermarket,Annual,25266.69
+Migros,Switzerland,Traditional Trade,Hypermarket,Promo-based,40795.25
+Coop CH,Switzerland,E-Commerce,Hypermarket,Annual,11858.72
+Pingo Doce,Portugal,HoReCa,Hard Discount,Annual,42891.5
+Continente,Portugal,Modern Trade,Supermarket,Annual,38987.17
+ICA,Sweden,Modern Trade,Convenience,Promo-based,36893.51
+Coop SE,Sweden,Modern Trade,Hypermarket,Annual,21206.14
+Kiwi,Norway,Modern Trade,Hard Discount,Annual,18748.59
+Rema 1000,Norway,Modern Trade,Supermarket,Promo-based,28205.57
+Netto DK,Denmark,E-Commerce,Supermarket,Listing Only,43314.12
+Fakta,Denmark,Modern Trade,Hard Discount,Annual,41785.24
