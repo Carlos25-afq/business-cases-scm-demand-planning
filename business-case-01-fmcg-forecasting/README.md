@@ -85,7 +85,7 @@ The dataset contains **over 1 million FMCG transactions** generated to replicate
 
 ---
 
-## 📘 4. Notebook (Kaggle) – What’s inside
+## 📘 4. What’s inside
 
 The notebook contains **15 fully structured sections**, including:
 
@@ -375,3 +375,4 @@ This dataset is ideal for:
 - Kaggle Competitions
 
 - Supply Chain Hackathons
+
