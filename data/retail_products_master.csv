@@ -1,0 +1,501 @@
+sku_id,sku_name,brand,category,subcategory,pack_size,unit,abc_class,base_price
+SKU0001,BrandB Nuts,BrandB,Snacks,Nuts,250ml,unit,B,1.47
+SKU0002,BrandA Cola,BrandA,Beverages,Cola,250ml,pack,A,6.78
+SKU0003,BrandB Water,BrandB,Beverages,Water,1L,bottle,C,5.18
+SKU0004,BrandB Soap,BrandB,Personal Care,Soap,1kg,bottle,B,2.04
+SKU0005,BrandD Soap,BrandD,Personal Care,Soap,200g,unit,A,2.5
+SKU0006,BrandD Cola,BrandD,Beverages,Cola,1L,pack,C,5.29
+SKU0007,BrandA Shampoo,BrandA,Personal Care,Shampoo,1kg,bottle,C,2.68
+SKU0008,BrandD Cola,BrandD,Beverages,Cola,1kg,pack,C,5.43
+SKU0009,BrandB Cola,BrandB,Beverages,Cola,500ml,bottle,C,4.67
+SKU0010,BrandD Soap,BrandD,Personal Care,Soap,500ml,pack,B,2.49
+SKU0011,BrandA Soap,BrandA,Personal Care,Soap,200g,bottle,B,5.55
+SKU0012,BrandA Cola,BrandA,Beverages,Cola,250ml,unit,A,1.7
+SKU0013,BrandD Chocolate,BrandD,Snacks,Chocolate,200g,unit,A,1.24
+SKU0014,BrandB Soap,BrandB,Personal Care,Soap,200g,unit,C,5.22
+SKU0015,BrandD Shampoo,BrandD,Personal Care,Shampoo,1L,pack,B,1.59
+SKU0016,BrandB Soap,BrandB,Personal Care,Soap,1L,unit,B,3.84
+SKU0017,BrandA Water,BrandA,Beverages,Water,1kg,pack,A,3.6
+SKU0018,BrandD Cola,BrandD,Beverages,Cola,500g,bottle,B,4.7
+SKU0019,BrandA Chips,BrandA,Snacks,Chips,500ml,unit,C,1.27
+SKU0020,BrandB Water,BrandB,Beverages,Water,200g,unit,B,4.76
+SKU0021,BrandA Nuts,BrandA,Snacks,Nuts,500g,unit,C,6.14
+SKU0022,BrandC Deodorant,BrandC,Personal Care,Deodorant,1L,unit,C,1.98
+SKU0023,BrandC Milk,BrandC,Dairy,Milk,200g,unit,A,4.85
+SKU0024,BrandC Yogurt,BrandC,Dairy,Yogurt,250ml,unit,A,4.51
+SKU0025,BrandA Deodorant,BrandA,Personal Care,Deodorant,250ml,bottle,C,4.45
+SKU0026,BrandC Nuts,BrandC,Snacks,Nuts,500ml,pack,B,4.86
+SKU0027,BrandC Cola,BrandC,Beverages,Cola,1L,unit,B,4.27
+SKU0028,BrandC Deodorant,BrandC,Personal Care,Deodorant,500g,bottle,C,3.32
+SKU0029,BrandC Water,BrandC,Beverages,Water,1kg,unit,C,6.43
+SKU0030,BrandA Chocolate,BrandA,Snacks,Chocolate,250ml,bottle,A,1.42
+SKU0031,BrandC Chocolate,BrandC,Snacks,Chocolate,500g,unit,A,1.11
+SKU0032,BrandC Milk,BrandC,Dairy,Milk,500g,pack,A,5.1
+SKU0033,BrandA Milk,BrandA,Dairy,Milk,1kg,pack,A,2.91
+SKU0034,BrandA Milk,BrandA,Dairy,Milk,1L,unit,C,1.14
+SKU0035,BrandD Milk,BrandD,Dairy,Milk,500g,bottle,C,2.69
+SKU0036,BrandA Deodorant,BrandA,Personal Care,Deodorant,250ml,unit,A,5.18
+SKU0037,BrandA Nuts,BrandA,Snacks,Nuts,1L,bottle,C,6.26
+SKU0038,BrandB Chocolate,BrandB,Snacks,Chocolate,250ml,pack,C,5.82
+SKU0039,BrandC Milk,BrandC,Dairy,Milk,500ml,bottle,B,2.06
+SKU0040,BrandA Nuts,BrandA,Snacks,Nuts,1L,bottle,C,5.84
+SKU0041,BrandB Deodorant,BrandB,Personal Care,Deodorant,500ml,unit,C,3.48
+SKU0042,BrandA Chocolate,BrandA,Snacks,Chocolate,500ml,bottle,B,5.66
+SKU0043,BrandB Yogurt,BrandB,Dairy,Yogurt,1L,unit,B,6.58
+SKU0044,BrandA Juice,BrandA,Beverages,Juice,200g,unit,C,3.57
+SKU0045,BrandC Chocolate,BrandC,Snacks,Chocolate,1L,unit,C,5.53
+SKU0046,BrandB Chips,BrandB,Snacks,Chips,200g,pack,A,6.42
+SKU0047,BrandC Milk,BrandC,Dairy,Milk,1L,bottle,C,5.96
+SKU0048,BrandC Deodorant,BrandC,Personal Care,Deodorant,250ml,unit,B,6.37
+SKU0049,BrandC Milk,BrandC,Dairy,Milk,250ml,unit,B,1.07
+SKU0050,BrandC Shampoo,BrandC,Personal Care,Shampoo,200g,bottle,C,1.55
+SKU0051,BrandB Juice,BrandB,Beverages,Juice,1L,unit,B,6.7
+SKU0052,BrandB Soap,BrandB,Personal Care,Soap,1L,pack,C,4.44
+SKU0053,BrandC Water,BrandC,Beverages,Water,500g,pack,C,3.69
+SKU0054,BrandC Water,BrandC,Beverages,Water,500g,pack,B,2.97
+SKU0055,BrandD Shampoo,BrandD,Personal Care,Shampoo,1kg,pack,C,5.51
+SKU0056,BrandD Chips,BrandD,Snacks,Chips,1kg,pack,C,5.74
+SKU0057,BrandC Nuts,BrandC,Snacks,Nuts,200g,bottle,A,3.97
+SKU0058,BrandC Juice,BrandC,Beverages,Juice,500ml,pack,A,4.3
+SKU0059,BrandD Yogurt,BrandD,Dairy,Yogurt,200g,bottle,B,6.33
+SKU0060,BrandD Nuts,BrandD,Snacks,Nuts,1kg,unit,B,1.7
+SKU0061,BrandC Juice,BrandC,Beverages,Juice,250ml,unit,A,5.57
+SKU0062,BrandB Milk,BrandB,Dairy,Milk,500ml,unit,C,1.61
+SKU0063,BrandD Cola,BrandD,Beverages,Cola,500g,unit,A,5.21
+SKU0064,BrandB Shampoo,BrandB,Personal Care,Shampoo,1kg,bottle,A,5.93
+SKU0065,BrandD Shampoo,BrandD,Personal Care,Shampoo,500ml,unit,C,1.49
+SKU0066,BrandD Cola,BrandD,Beverages,Cola,500ml,unit,A,6.92
+SKU0067,BrandB Soap,BrandB,Personal Care,Soap,250ml,pack,B,3.22
+SKU0068,BrandC Chocolate,BrandC,Snacks,Chocolate,200g,bottle,C,6.68
+SKU0069,BrandD Deodorant,BrandD,Personal Care,Deodorant,500ml,bottle,C,5.52
+SKU0070,BrandC Shampoo,BrandC,Personal Care,Shampoo,500ml,bottle,B,1.5
+SKU0071,BrandD Cheese,BrandD,Dairy,Cheese,1kg,unit,C,4.35
+SKU0072,BrandA Yogurt,BrandA,Dairy,Yogurt,1kg,pack,B,6.44
+SKU0073,BrandC Chocolate,BrandC,Snacks,Chocolate,1L,bottle,A,3.96
+SKU0074,BrandB Cola,BrandB,Beverages,Cola,500ml,pack,A,3.81
+SKU0075,BrandB Nuts,BrandB,Snacks,Nuts,250ml,pack,A,1.71
+SKU0076,BrandD Shampoo,BrandD,Personal Care,Shampoo,200g,unit,A,4.9
+SKU0077,BrandD Chocolate,BrandD,Snacks,Chocolate,500g,bottle,C,4.5
+SKU0078,BrandD Water,BrandD,Beverages,Water,200g,unit,C,3.25
+SKU0079,BrandD Yogurt,BrandD,Dairy,Yogurt,200g,bottle,B,6.21
+SKU0080,BrandB Chocolate,BrandB,Snacks,Chocolate,1L,pack,B,6.78
+SKU0081,BrandD Soap,BrandD,Personal Care,Soap,1L,bottle,A,6.82
+SKU0082,BrandB Deodorant,BrandB,Personal Care,Deodorant,200g,unit,A,6.35
+SKU0083,BrandA Juice,BrandA,Beverages,Juice,250ml,bottle,C,6.96
+SKU0084,BrandD Soap,BrandD,Personal Care,Soap,500ml,unit,A,4.32
+SKU0085,BrandC Yogurt,BrandC,Dairy,Yogurt,500ml,pack,C,4.14
+SKU0086,BrandD Yogurt,BrandD,Dairy,Yogurt,1L,pack,C,5.17
+SKU0087,BrandD Milk,BrandD,Dairy,Milk,250ml,bottle,B,4.77
+SKU0088,BrandB Juice,BrandB,Beverages,Juice,1kg,unit,C,6.41
+SKU0089,BrandB Cola,BrandB,Beverages,Cola,500ml,unit,A,2.69
+SKU0090,BrandB Chips,BrandB,Snacks,Chips,200g,bottle,C,6.34
+SKU0091,BrandB Water,BrandB,Beverages,Water,200g,bottle,B,4.72
+SKU0092,BrandB Yogurt,BrandB,Dairy,Yogurt,500g,bottle,B,2.13
+SKU0093,BrandC Cola,BrandC,Beverages,Cola,250ml,bottle,B,3.12
+SKU0094,BrandD Juice,BrandD,Beverages,Juice,200g,bottle,C,1.47
+SKU0095,BrandB Chips,BrandB,Snacks,Chips,250ml,bottle,C,6.92
+SKU0096,BrandA Cheese,BrandA,Dairy,Cheese,500g,unit,C,4.22
+SKU0097,BrandD Cheese,BrandD,Dairy,Cheese,1kg,pack,B,5.88
+SKU0098,BrandC Water,BrandC,Beverages,Water,250ml,pack,C,1.98
+SKU0099,BrandD Soap,BrandD,Personal Care,Soap,1L,bottle,C,5.94
+SKU0100,BrandB Deodorant,BrandB,Personal Care,Deodorant,200g,unit,C,5.35
+SKU0101,BrandD Cheese,BrandD,Dairy,Cheese,200g,pack,C,3.51
+SKU0102,BrandB Yogurt,BrandB,Dairy,Yogurt,250ml,pack,C,6.2
+SKU0103,BrandD Soap,BrandD,Personal Care,Soap,500g,bottle,A,1.16
+SKU0104,BrandA Shampoo,BrandA,Personal Care,Shampoo,200g,pack,B,5.86
+SKU0105,BrandB Chocolate,BrandB,Snacks,Chocolate,1L,pack,C,1.9
+SKU0106,BrandC Yogurt,BrandC,Dairy,Yogurt,500g,unit,C,3.29
+SKU0107,BrandB Chips,BrandB,Snacks,Chips,1kg,pack,C,6.05
+SKU0108,BrandB Deodorant,BrandB,Personal Care,Deodorant,1kg,pack,C,3.81
+SKU0109,BrandA Shampoo,BrandA,Personal Care,Shampoo,250ml,pack,B,2.64
+SKU0110,BrandB Chocolate,BrandB,Snacks,Chocolate,1L,bottle,A,6.19
+SKU0111,BrandC Yogurt,BrandC,Dairy,Yogurt,200g,bottle,C,7.0
+SKU0112,BrandD Yogurt,BrandD,Dairy,Yogurt,1L,pack,C,4.33
+SKU0113,BrandA Milk,BrandA,Dairy,Milk,1kg,unit,C,6.67
+SKU0114,BrandB Milk,BrandB,Dairy,Milk,500ml,unit,C,2.48
+SKU0115,BrandC Shampoo,BrandC,Personal Care,Shampoo,250ml,unit,B,1.77
+SKU0116,BrandC Milk,BrandC,Dairy,Milk,500ml,pack,C,4.64
+SKU0117,BrandB Water,BrandB,Beverages,Water,1L,unit,B,5.03
+SKU0118,BrandC Water,BrandC,Beverages,Water,1kg,unit,C,3.15
+SKU0119,BrandA Soap,BrandA,Personal Care,Soap,500g,pack,A,5.03
+SKU0120,BrandD Shampoo,BrandD,Personal Care,Shampoo,1L,unit,C,5.63
+SKU0121,BrandD Juice,BrandD,Beverages,Juice,250ml,unit,C,6.11
+SKU0122,BrandA Shampoo,BrandA,Personal Care,Shampoo,500g,bottle,C,4.37
+SKU0123,BrandB Cola,BrandB,Beverages,Cola,500g,pack,C,3.42
+SKU0124,BrandA Cola,BrandA,Beverages,Cola,500g,pack,A,1.17
+SKU0125,BrandD Nuts,BrandD,Snacks,Nuts,200g,pack,C,4.72
+SKU0126,BrandD Cheese,BrandD,Dairy,Cheese,1L,bottle,C,2.28
+SKU0127,BrandA Water,BrandA,Beverages,Water,500ml,bottle,A,1.09
+SKU0128,BrandA Chocolate,BrandA,Snacks,Chocolate,500ml,unit,B,4.54
+SKU0129,BrandA Nuts,BrandA,Snacks,Nuts,500ml,unit,B,3.62
+SKU0130,BrandD Shampoo,BrandD,Personal Care,Shampoo,1L,unit,C,3.09
+SKU0131,BrandC Chocolate,BrandC,Snacks,Chocolate,1kg,pack,C,5.7
+SKU0132,BrandB Water,BrandB,Beverages,Water,1L,bottle,B,4.73
+SKU0133,BrandA Chocolate,BrandA,Snacks,Chocolate,500g,unit,C,6.7
+SKU0134,BrandB Chocolate,BrandB,Snacks,Chocolate,250ml,unit,A,6.56
+SKU0135,BrandC Chocolate,BrandC,Snacks,Chocolate,200g,unit,B,2.55
+SKU0136,BrandC Deodorant,BrandC,Personal Care,Deodorant,1kg,pack,B,6.88
+SKU0137,BrandD Cheese,BrandD,Dairy,Cheese,200g,unit,B,2.97
+SKU0138,BrandC Juice,BrandC,Beverages,Juice,500g,pack,C,2.44
+SKU0139,BrandB Cola,BrandB,Beverages,Cola,1kg,bottle,A,1.77
+SKU0140,BrandC Water,BrandC,Beverages,Water,500g,unit,A,1.91
+SKU0141,BrandD Chocolate,BrandD,Snacks,Chocolate,1L,unit,A,4.85
+SKU0142,BrandD Deodorant,BrandD,Personal Care,Deodorant,250ml,pack,A,3.07
+SKU0143,BrandC Yogurt,BrandC,Dairy,Yogurt,1L,bottle,C,3.84
+SKU0144,BrandC Cola,BrandC,Beverages,Cola,200g,bottle,C,2.03
+SKU0145,BrandD Shampoo,BrandD,Personal Care,Shampoo,500g,unit,A,1.25
+SKU0146,BrandC Soap,BrandC,Personal Care,Soap,1L,pack,A,2.67
+SKU0147,BrandA Juice,BrandA,Beverages,Juice,1kg,bottle,A,1.53
+SKU0148,BrandA Shampoo,BrandA,Personal Care,Shampoo,500ml,bottle,A,3.76
+SKU0149,BrandD Cheese,BrandD,Dairy,Cheese,1kg,pack,B,3.19
+SKU0150,BrandC Cola,BrandC,Beverages,Cola,500g,unit,C,5.14
+SKU0151,BrandD Yogurt,BrandD,Dairy,Yogurt,250ml,unit,A,5.8
+SKU0152,BrandB Nuts,BrandB,Snacks,Nuts,1L,bottle,C,1.49
+SKU0153,BrandD Water,BrandD,Beverages,Water,250ml,unit,C,6.53
+SKU0154,BrandA Juice,BrandA,Beverages,Juice,1kg,unit,A,2.66
+SKU0155,BrandC Deodorant,BrandC,Personal Care,Deodorant,500g,bottle,C,5.49
+SKU0156,BrandD Yogurt,BrandD,Dairy,Yogurt,200g,unit,A,2.26
+SKU0157,BrandB Deodorant,BrandB,Personal Care,Deodorant,200g,unit,B,3.91
+SKU0158,BrandC Chips,BrandC,Snacks,Chips,200g,pack,C,3.21
+SKU0159,BrandC Milk,BrandC,Dairy,Milk,1kg,pack,B,5.48
+SKU0160,BrandD Soap,BrandD,Personal Care,Soap,500g,pack,A,2.51
+SKU0161,BrandD Yogurt,BrandD,Dairy,Yogurt,200g,pack,C,6.37
+SKU0162,BrandB Nuts,BrandB,Snacks,Nuts,500g,pack,C,4.19
+SKU0163,BrandA Chocolate,BrandA,Snacks,Chocolate,1L,bottle,A,3.68
+SKU0164,BrandD Deodorant,BrandD,Personal Care,Deodorant,200g,bottle,C,2.45
+SKU0165,BrandA Chocolate,BrandA,Snacks,Chocolate,500ml,bottle,B,3.26
+SKU0166,BrandD Milk,BrandD,Dairy,Milk,250ml,bottle,A,2.93
+SKU0167,BrandB Soap,BrandB,Personal Care,Soap,200g,bottle,B,2.96
+SKU0168,BrandD Chips,BrandD,Snacks,Chips,1L,pack,A,6.34
+SKU0169,BrandA Deodorant,BrandA,Personal Care,Deodorant,1L,bottle,C,5.07
+SKU0170,BrandD Shampoo,BrandD,Personal Care,Shampoo,500g,unit,C,3.99
+SKU0171,BrandC Cola,BrandC,Beverages,Cola,500ml,bottle,A,4.22
+SKU0172,BrandA Juice,BrandA,Beverages,Juice,1kg,bottle,C,5.47
+SKU0173,BrandB Juice,BrandB,Beverages,Juice,1kg,pack,B,1.77
+SKU0174,BrandC Cola,BrandC,Beverages,Cola,250ml,pack,B,3.18
+SKU0175,BrandD Yogurt,BrandD,Dairy,Yogurt,500ml,unit,C,4.42
+SKU0176,BrandB Deodorant,BrandB,Personal Care,Deodorant,500ml,unit,B,6.92
+SKU0177,BrandD Water,BrandD,Beverages,Water,500g,bottle,C,2.42
+SKU0178,BrandB Chocolate,BrandB,Snacks,Chocolate,500ml,pack,A,1.92
+SKU0179,BrandC Yogurt,BrandC,Dairy,Yogurt,1kg,unit,B,1.96
+SKU0180,BrandB Shampoo,BrandB,Personal Care,Shampoo,250ml,pack,A,2.71
+SKU0181,BrandC Cheese,BrandC,Dairy,Cheese,1kg,pack,A,6.38
+SKU0182,BrandC Yogurt,BrandC,Dairy,Yogurt,500ml,pack,A,4.15
+SKU0183,BrandB Soap,BrandB,Personal Care,Soap,200g,bottle,B,6.89
+SKU0184,BrandC Cheese,BrandC,Dairy,Cheese,1kg,pack,A,3.39
+SKU0185,BrandD Water,BrandD,Beverages,Water,1L,unit,C,6.19
+SKU0186,BrandD Water,BrandD,Beverages,Water,1L,unit,C,2.55
+SKU0187,BrandB Milk,BrandB,Dairy,Milk,500g,pack,A,5.01
+SKU0188,BrandA Nuts,BrandA,Snacks,Nuts,1kg,bottle,C,4.34
+SKU0189,BrandD Juice,BrandD,Beverages,Juice,250ml,bottle,C,2.68
+SKU0190,BrandB Cheese,BrandB,Dairy,Cheese,250ml,pack,C,2.12
+SKU0191,BrandD Cheese,BrandD,Dairy,Cheese,500ml,unit,B,3.55
+SKU0192,BrandC Nuts,BrandC,Snacks,Nuts,500g,bottle,C,2.45
+SKU0193,BrandC Milk,BrandC,Dairy,Milk,200g,pack,A,4.66
+SKU0194,BrandD Milk,BrandD,Dairy,Milk,250ml,unit,B,4.49
+SKU0195,BrandD Nuts,BrandD,Snacks,Nuts,500g,pack,A,3.89
+SKU0196,BrandA Juice,BrandA,Beverages,Juice,1L,bottle,C,1.31
+SKU0197,BrandC Juice,BrandC,Beverages,Juice,1kg,bottle,B,1.81
+SKU0198,BrandD Cheese,BrandD,Dairy,Cheese,1kg,pack,A,6.94
+SKU0199,BrandB Water,BrandB,Beverages,Water,200g,unit,B,5.86
+SKU0200,BrandB Cheese,BrandB,Dairy,Cheese,1kg,unit,B,5.09
+SKU0201,BrandC Deodorant,BrandC,Personal Care,Deodorant,1kg,pack,C,4.57
+SKU0202,BrandA Cola,BrandA,Beverages,Cola,250ml,pack,B,3.47
+SKU0203,BrandA Soap,BrandA,Personal Care,Soap,500ml,bottle,B,6.58
+SKU0204,BrandD Chocolate,BrandD,Snacks,Chocolate,1L,bottle,C,6.79
+SKU0205,BrandB Deodorant,BrandB,Personal Care,Deodorant,200g,bottle,A,5.39
+SKU0206,BrandD Juice,BrandD,Beverages,Juice,1L,unit,C,2.09
+SKU0207,BrandD Milk,BrandD,Dairy,Milk,200g,unit,A,5.45
+SKU0208,BrandC Milk,BrandC,Dairy,Milk,500g,bottle,C,6.05
+SKU0209,BrandD Milk,BrandD,Dairy,Milk,1L,unit,A,5.77
+SKU0210,BrandA Juice,BrandA,Beverages,Juice,1kg,unit,B,1.98
+SKU0211,BrandC Cola,BrandC,Beverages,Cola,500ml,unit,A,5.89
+SKU0212,BrandB Chips,BrandB,Snacks,Chips,500g,unit,C,4.14
+SKU0213,BrandB Chocolate,BrandB,Snacks,Chocolate,500g,unit,B,6.26
+SKU0214,BrandB Milk,BrandB,Dairy,Milk,500g,pack,B,5.9
+SKU0215,BrandA Chips,BrandA,Snacks,Chips,500ml,unit,B,3.26
+SKU0216,BrandC Milk,BrandC,Dairy,Milk,250ml,unit,B,2.81
+SKU0217,BrandB Milk,BrandB,Dairy,Milk,1kg,pack,C,4.02
+SKU0218,BrandA Water,BrandA,Beverages,Water,200g,pack,B,6.4
+SKU0219,BrandA Cheese,BrandA,Dairy,Cheese,200g,bottle,B,4.26
+SKU0220,BrandA Nuts,BrandA,Snacks,Nuts,1kg,bottle,C,4.75
+SKU0221,BrandA Yogurt,BrandA,Dairy,Yogurt,250ml,pack,A,6.64
+SKU0222,BrandA Shampoo,BrandA,Personal Care,Shampoo,200g,bottle,C,3.01
+SKU0223,BrandA Soap,BrandA,Personal Care,Soap,1L,bottle,A,5.76
+SKU0224,BrandB Chips,BrandB,Snacks,Chips,1L,bottle,C,4.2
+SKU0225,BrandC Yogurt,BrandC,Dairy,Yogurt,200g,bottle,C,5.73
+SKU0226,BrandA Soap,BrandA,Personal Care,Soap,1kg,bottle,A,2.87
+SKU0227,BrandD Chocolate,BrandD,Snacks,Chocolate,500ml,pack,B,5.46
+SKU0228,BrandD Yogurt,BrandD,Dairy,Yogurt,200g,bottle,A,4.42
+SKU0229,BrandD Juice,BrandD,Beverages,Juice,1L,bottle,C,6.26
+SKU0230,BrandB Yogurt,BrandB,Dairy,Yogurt,1kg,pack,B,5.93
+SKU0231,BrandA Cola,BrandA,Beverages,Cola,250ml,pack,A,6.08
+SKU0232,BrandC Water,BrandC,Beverages,Water,500ml,bottle,A,3.38
+SKU0233,BrandC Water,BrandC,Beverages,Water,1kg,unit,C,1.9
+SKU0234,BrandD Shampoo,BrandD,Personal Care,Shampoo,1kg,unit,B,5.33
+SKU0235,BrandC Cheese,BrandC,Dairy,Cheese,1L,unit,C,4.85
+SKU0236,BrandD Chips,BrandD,Snacks,Chips,500ml,unit,C,4.26
+SKU0237,BrandC Cheese,BrandC,Dairy,Cheese,250ml,pack,B,3.07
+SKU0238,BrandA Chocolate,BrandA,Snacks,Chocolate,500g,bottle,A,6.45
+SKU0239,BrandB Milk,BrandB,Dairy,Milk,1L,bottle,C,3.41
+SKU0240,BrandC Yogurt,BrandC,Dairy,Yogurt,250ml,unit,B,6.68
+SKU0241,BrandD Nuts,BrandD,Snacks,Nuts,250ml,unit,A,4.52
+SKU0242,BrandB Cola,BrandB,Beverages,Cola,200g,pack,C,4.67
+SKU0243,BrandB Shampoo,BrandB,Personal Care,Shampoo,1L,pack,A,6.23
+SKU0244,BrandA Cheese,BrandA,Dairy,Cheese,250ml,unit,C,4.39
+SKU0245,BrandA Nuts,BrandA,Snacks,Nuts,1kg,unit,C,6.53
+SKU0246,BrandD Yogurt,BrandD,Dairy,Yogurt,200g,bottle,C,1.92
+SKU0247,BrandC Shampoo,BrandC,Personal Care,Shampoo,500ml,bottle,C,4.64
+SKU0248,BrandD Juice,BrandD,Beverages,Juice,250ml,pack,B,5.42
+SKU0249,BrandC Deodorant,BrandC,Personal Care,Deodorant,250ml,unit,C,6.55
+SKU0250,BrandA Deodorant,BrandA,Personal Care,Deodorant,250ml,unit,B,1.68
+SKU0251,BrandB Milk,BrandB,Dairy,Milk,1L,pack,C,6.03
+SKU0252,BrandA Milk,BrandA,Dairy,Milk,200g,bottle,A,6.53
+SKU0253,BrandB Soap,BrandB,Personal Care,Soap,200g,bottle,C,4.11
+SKU0254,BrandC Nuts,BrandC,Snacks,Nuts,250ml,pack,C,3.39
+SKU0255,BrandA Juice,BrandA,Beverages,Juice,200g,unit,A,3.01
+SKU0256,BrandD Cheese,BrandD,Dairy,Cheese,500g,pack,C,1.03
+SKU0257,BrandA Shampoo,BrandA,Personal Care,Shampoo,200g,unit,B,3.39
+SKU0258,BrandD Milk,BrandD,Dairy,Milk,1kg,pack,C,6.52
+SKU0259,BrandA Juice,BrandA,Beverages,Juice,500ml,pack,B,3.08
+SKU0260,BrandA Deodorant,BrandA,Personal Care,Deodorant,200g,pack,C,3.71
+SKU0261,BrandC Milk,BrandC,Dairy,Milk,500ml,unit,B,3.71
+SKU0262,BrandB Water,BrandB,Beverages,Water,1L,pack,A,2.06
+SKU0263,BrandA Chips,BrandA,Snacks,Chips,500ml,pack,B,3.51
+SKU0264,BrandB Chips,BrandB,Snacks,Chips,1kg,unit,C,3.17
+SKU0265,BrandD Nuts,BrandD,Snacks,Nuts,200g,bottle,C,4.79
+SKU0266,BrandC Deodorant,BrandC,Personal Care,Deodorant,1kg,pack,A,4.98
+SKU0267,BrandA Chocolate,BrandA,Snacks,Chocolate,200g,pack,A,6.77
+SKU0268,BrandA Yogurt,BrandA,Dairy,Yogurt,1L,bottle,A,3.49
+SKU0269,BrandD Juice,BrandD,Beverages,Juice,200g,unit,A,6.98
+SKU0270,BrandC Juice,BrandC,Beverages,Juice,250ml,bottle,C,4.57
+SKU0271,BrandD Water,BrandD,Beverages,Water,200g,bottle,A,5.5
+SKU0272,BrandB Juice,BrandB,Beverages,Juice,1L,bottle,B,6.39
+SKU0273,BrandB Deodorant,BrandB,Personal Care,Deodorant,250ml,pack,B,2.14
+SKU0274,BrandA Juice,BrandA,Beverages,Juice,500g,bottle,A,3.83
+SKU0275,BrandB Chips,BrandB,Snacks,Chips,1kg,pack,C,1.39
+SKU0276,BrandB Deodorant,BrandB,Personal Care,Deodorant,1L,pack,C,3.72
+SKU0277,BrandD Yogurt,BrandD,Dairy,Yogurt,1L,bottle,C,3.64
+SKU0278,BrandC Water,BrandC,Beverages,Water,250ml,pack,B,4.36
+SKU0279,BrandD Water,BrandD,Beverages,Water,1L,pack,A,2.09
+SKU0280,BrandA Chocolate,BrandA,Snacks,Chocolate,500g,bottle,C,6.68
+SKU0281,BrandC Chocolate,BrandC,Snacks,Chocolate,1kg,bottle,B,2.62
+SKU0282,BrandA Soap,BrandA,Personal Care,Soap,1L,bottle,C,3.45
+SKU0283,BrandC Deodorant,BrandC,Personal Care,Deodorant,500ml,bottle,A,1.94
+SKU0284,BrandD Water,BrandD,Beverages,Water,500g,pack,C,4.95
+SKU0285,BrandC Juice,BrandC,Beverages,Juice,500ml,unit,A,2.33
+SKU0286,BrandB Yogurt,BrandB,Dairy,Yogurt,500ml,unit,B,5.03
+SKU0287,BrandC Chips,BrandC,Snacks,Chips,250ml,bottle,A,1.62
+SKU0288,BrandC Water,BrandC,Beverages,Water,500g,unit,C,2.07
+SKU0289,BrandB Soap,BrandB,Personal Care,Soap,500ml,bottle,C,2.43
+SKU0290,BrandD Nuts,BrandD,Snacks,Nuts,250ml,pack,A,2.46
+SKU0291,BrandB Cheese,BrandB,Dairy,Cheese,200g,bottle,C,6.13
+SKU0292,BrandD Cheese,BrandD,Dairy,Cheese,500ml,bottle,C,3.38
+SKU0293,BrandD Chocolate,BrandD,Snacks,Chocolate,500ml,pack,C,2.23
+SKU0294,BrandC Shampoo,BrandC,Personal Care,Shampoo,200g,bottle,B,6.38
+SKU0295,BrandB Soap,BrandB,Personal Care,Soap,500g,unit,A,1.51
+SKU0296,BrandD Milk,BrandD,Dairy,Milk,1L,bottle,B,1.16
+SKU0297,BrandA Water,BrandA,Beverages,Water,1L,unit,A,4.5
+SKU0298,BrandD Chocolate,BrandD,Snacks,Chocolate,500g,unit,B,6.36
+SKU0299,BrandB Soap,BrandB,Personal Care,Soap,200g,pack,C,3.05
+SKU0300,BrandA Juice,BrandA,Beverages,Juice,200g,bottle,B,3.28
+SKU0301,BrandD Milk,BrandD,Dairy,Milk,250ml,pack,C,2.61
+SKU0302,BrandC Chips,BrandC,Snacks,Chips,250ml,bottle,C,3.46
+SKU0303,BrandB Milk,BrandB,Dairy,Milk,250ml,pack,C,3.62
+SKU0304,BrandB Deodorant,BrandB,Personal Care,Deodorant,1kg,pack,B,6.69
+SKU0305,BrandA Deodorant,BrandA,Personal Care,Deodorant,250ml,unit,C,1.84
+SKU0306,BrandB Milk,BrandB,Dairy,Milk,500g,bottle,C,3.92
+SKU0307,BrandC Soap,BrandC,Personal Care,Soap,500ml,pack,C,5.8
+SKU0308,BrandB Cola,BrandB,Beverages,Cola,200g,bottle,B,1.13
+SKU0309,BrandA Soap,BrandA,Personal Care,Soap,200g,bottle,B,4.25
+SKU0310,BrandB Water,BrandB,Beverages,Water,1kg,unit,C,2.55
+SKU0311,BrandA Yogurt,BrandA,Dairy,Yogurt,500g,pack,A,6.01
+SKU0312,BrandD Nuts,BrandD,Snacks,Nuts,500ml,bottle,C,4.15
+SKU0313,BrandC Water,BrandC,Beverages,Water,250ml,bottle,A,2.63
+SKU0314,BrandD Juice,BrandD,Beverages,Juice,250ml,bottle,A,6.49
+SKU0315,BrandC Shampoo,BrandC,Personal Care,Shampoo,1kg,unit,A,4.46
+SKU0316,BrandC Milk,BrandC,Dairy,Milk,500ml,bottle,B,4.33
+SKU0317,BrandC Water,BrandC,Beverages,Water,500ml,unit,C,5.98
+SKU0318,BrandC Cheese,BrandC,Dairy,Cheese,1kg,unit,B,1.07
+SKU0319,BrandD Deodorant,BrandD,Personal Care,Deodorant,1kg,unit,A,6.4
+SKU0320,BrandD Chips,BrandD,Snacks,Chips,250ml,pack,C,4.58
+SKU0321,BrandB Chips,BrandB,Snacks,Chips,250ml,pack,C,4.99
+SKU0322,BrandD Cheese,BrandD,Dairy,Cheese,500g,pack,A,6.49
+SKU0323,BrandB Milk,BrandB,Dairy,Milk,1L,pack,B,3.3
+SKU0324,BrandC Water,BrandC,Beverages,Water,1L,unit,C,1.28
+SKU0325,BrandD Yogurt,BrandD,Dairy,Yogurt,1kg,pack,A,5.43
+SKU0326,BrandB Shampoo,BrandB,Personal Care,Shampoo,200g,bottle,A,4.62
+SKU0327,BrandC Shampoo,BrandC,Personal Care,Shampoo,250ml,bottle,B,3.34
+SKU0328,BrandD Soap,BrandD,Personal Care,Soap,500g,unit,B,3.13
+SKU0329,BrandA Yogurt,BrandA,Dairy,Yogurt,250ml,pack,C,2.78
+SKU0330,BrandD Yogurt,BrandD,Dairy,Yogurt,500g,bottle,C,3.86
+SKU0331,BrandD Soap,BrandD,Personal Care,Soap,1L,pack,C,6.62
+SKU0332,BrandC Water,BrandC,Beverages,Water,500g,pack,C,2.29
+SKU0333,BrandA Cheese,BrandA,Dairy,Cheese,250ml,bottle,A,2.57
+SKU0334,BrandB Shampoo,BrandB,Personal Care,Shampoo,250ml,unit,C,1.31
+SKU0335,BrandB Soap,BrandB,Personal Care,Soap,250ml,unit,B,4.58
+SKU0336,BrandD Yogurt,BrandD,Dairy,Yogurt,500g,unit,B,5.63
+SKU0337,BrandD Nuts,BrandD,Snacks,Nuts,1L,pack,A,1.45
+SKU0338,BrandB Soap,BrandB,Personal Care,Soap,500g,pack,C,3.97
+SKU0339,BrandC Shampoo,BrandC,Personal Care,Shampoo,500ml,unit,C,3.61
+SKU0340,BrandB Water,BrandB,Beverages,Water,200g,bottle,B,5.91
+SKU0341,BrandA Deodorant,BrandA,Personal Care,Deodorant,1L,pack,C,5.17
+SKU0342,BrandC Soap,BrandC,Personal Care,Soap,1kg,pack,B,4.54
+SKU0343,BrandB Chips,BrandB,Snacks,Chips,250ml,pack,B,1.55
+SKU0344,BrandD Nuts,BrandD,Snacks,Nuts,250ml,bottle,C,1.82
+SKU0345,BrandC Cheese,BrandC,Dairy,Cheese,1kg,unit,C,3.68
+SKU0346,BrandB Yogurt,BrandB,Dairy,Yogurt,1kg,bottle,A,4.25
+SKU0347,BrandB Chocolate,BrandB,Snacks,Chocolate,250ml,unit,C,5.39
+SKU0348,BrandD Chips,BrandD,Snacks,Chips,250ml,pack,C,4.95
+SKU0349,BrandB Yogurt,BrandB,Dairy,Yogurt,500g,unit,C,6.1
+SKU0350,BrandD Juice,BrandD,Beverages,Juice,1kg,bottle,B,3.94
+SKU0351,BrandD Deodorant,BrandD,Personal Care,Deodorant,200g,bottle,B,6.93
+SKU0352,BrandC Cola,BrandC,Beverages,Cola,1kg,unit,C,1.24
+SKU0353,BrandC Shampoo,BrandC,Personal Care,Shampoo,500ml,bottle,C,6.55
+SKU0354,BrandD Chips,BrandD,Snacks,Chips,500g,unit,A,4.41
+SKU0355,BrandB Water,BrandB,Beverages,Water,1L,unit,C,1.2
+SKU0356,BrandB Chocolate,BrandB,Snacks,Chocolate,1L,bottle,C,2.78
+SKU0357,BrandC Milk,BrandC,Dairy,Milk,500ml,bottle,C,6.83
+SKU0358,BrandC Milk,BrandC,Dairy,Milk,500g,bottle,C,3.85
+SKU0359,BrandB Water,BrandB,Beverages,Water,500g,bottle,C,6.07
+SKU0360,BrandC Chips,BrandC,Snacks,Chips,500g,unit,B,5.97
+SKU0361,BrandA Cola,BrandA,Beverages,Cola,1kg,bottle,A,4.58
+SKU0362,BrandB Cheese,BrandB,Dairy,Cheese,500g,pack,B,1.72
+SKU0363,BrandC Juice,BrandC,Beverages,Juice,1kg,pack,A,5.18
+SKU0364,BrandD Soap,BrandD,Personal Care,Soap,1L,pack,B,5.35
+SKU0365,BrandA Water,BrandA,Beverages,Water,500ml,pack,A,2.89
+SKU0366,BrandD Shampoo,BrandD,Personal Care,Shampoo,500ml,pack,C,5.74
+SKU0367,BrandC Chocolate,BrandC,Snacks,Chocolate,1kg,pack,B,4.76
+SKU0368,BrandC Soap,BrandC,Personal Care,Soap,500g,bottle,C,4.7
+SKU0369,BrandB Juice,BrandB,Beverages,Juice,200g,unit,B,1.15
+SKU0370,BrandB Yogurt,BrandB,Dairy,Yogurt,500ml,unit,C,1.13
+SKU0371,BrandD Juice,BrandD,Beverages,Juice,500g,pack,C,4.17
+SKU0372,BrandC Chips,BrandC,Snacks,Chips,500g,bottle,C,5.79
+SKU0373,BrandB Milk,BrandB,Dairy,Milk,200g,bottle,C,3.1
+SKU0374,BrandC Shampoo,BrandC,Personal Care,Shampoo,200g,unit,C,3.41
+SKU0375,BrandD Juice,BrandD,Beverages,Juice,500ml,unit,B,4.77
+SKU0376,BrandA Milk,BrandA,Dairy,Milk,1L,pack,C,6.9
+SKU0377,BrandA Shampoo,BrandA,Personal Care,Shampoo,250ml,pack,C,3.51
+SKU0378,BrandC Chocolate,BrandC,Snacks,Chocolate,200g,pack,B,5.43
+SKU0379,BrandA Juice,BrandA,Beverages,Juice,500g,bottle,B,1.66
+SKU0380,BrandC Chocolate,BrandC,Snacks,Chocolate,250ml,pack,B,2.72
+SKU0381,BrandC Deodorant,BrandC,Personal Care,Deodorant,500g,bottle,B,2.4
+SKU0382,BrandA Cola,BrandA,Beverages,Cola,200g,pack,A,1.11
+SKU0383,BrandC Cheese,BrandC,Dairy,Cheese,500ml,unit,C,3.57
+SKU0384,BrandA Deodorant,BrandA,Personal Care,Deodorant,250ml,unit,B,5.08
+SKU0385,BrandC Nuts,BrandC,Snacks,Nuts,200g,bottle,B,6.7
+SKU0386,BrandB Soap,BrandB,Personal Care,Soap,1L,bottle,C,1.54
+SKU0387,BrandD Milk,BrandD,Dairy,Milk,500g,bottle,B,6.27
+SKU0388,BrandC Cheese,BrandC,Dairy,Cheese,500g,bottle,C,3.8
+SKU0389,BrandC Deodorant,BrandC,Personal Care,Deodorant,200g,unit,C,2.0
+SKU0390,BrandA Yogurt,BrandA,Dairy,Yogurt,200g,bottle,C,2.39
+SKU0391,BrandA Cheese,BrandA,Dairy,Cheese,500g,pack,C,4.9
+SKU0392,BrandB Cheese,BrandB,Dairy,Cheese,1kg,unit,C,4.08
+SKU0393,BrandD Soap,BrandD,Personal Care,Soap,500ml,bottle,B,2.06
+SKU0394,BrandA Chips,BrandA,Snacks,Chips,500ml,unit,B,2.12
+SKU0395,BrandD Shampoo,BrandD,Personal Care,Shampoo,500ml,pack,C,3.1
+SKU0396,BrandD Chocolate,BrandD,Snacks,Chocolate,1kg,bottle,A,6.81
+SKU0397,BrandB Water,BrandB,Beverages,Water,500g,unit,C,6.57
+SKU0398,BrandD Cheese,BrandD,Dairy,Cheese,500g,pack,C,2.04
+SKU0399,BrandD Milk,BrandD,Dairy,Milk,500g,pack,B,5.55
+SKU0400,BrandC Cheese,BrandC,Dairy,Cheese,500g,pack,C,1.92
+SKU0401,BrandC Chips,BrandC,Snacks,Chips,500g,pack,C,2.35
+SKU0402,BrandC Chocolate,BrandC,Snacks,Chocolate,1kg,unit,B,4.22
+SKU0403,BrandD Shampoo,BrandD,Personal Care,Shampoo,1L,bottle,C,4.48
+SKU0404,BrandA Yogurt,BrandA,Dairy,Yogurt,500g,bottle,A,6.26
+SKU0405,BrandC Shampoo,BrandC,Personal Care,Shampoo,500ml,pack,B,1.78
+SKU0406,BrandA Juice,BrandA,Beverages,Juice,1L,pack,C,6.73
+SKU0407,BrandD Cheese,BrandD,Dairy,Cheese,500ml,unit,C,5.86
+SKU0408,BrandC Cheese,BrandC,Dairy,Cheese,500ml,unit,C,4.31
+SKU0409,BrandA Chips,BrandA,Snacks,Chips,1kg,bottle,A,3.45
+SKU0410,BrandB Nuts,BrandB,Snacks,Nuts,250ml,unit,B,2.56
+SKU0411,BrandD Shampoo,BrandD,Personal Care,Shampoo,250ml,bottle,C,3.98
+SKU0412,BrandB Chips,BrandB,Snacks,Chips,200g,bottle,A,2.32
+SKU0413,BrandB Shampoo,BrandB,Personal Care,Shampoo,1L,pack,C,1.46
+SKU0414,BrandA Cheese,BrandA,Dairy,Cheese,250ml,bottle,C,3.97
+SKU0415,BrandA Nuts,BrandA,Snacks,Nuts,500ml,pack,B,4.55
+SKU0416,BrandD Chips,BrandD,Snacks,Chips,200g,unit,C,3.09
+SKU0417,BrandA Milk,BrandA,Dairy,Milk,1L,bottle,C,4.39
+SKU0418,BrandC Juice,BrandC,Beverages,Juice,200g,bottle,B,6.27
+SKU0419,BrandD Soap,BrandD,Personal Care,Soap,1L,unit,C,4.95
+SKU0420,BrandB Juice,BrandB,Beverages,Juice,1kg,pack,C,6.2
+SKU0421,BrandB Cheese,BrandB,Dairy,Cheese,250ml,bottle,C,6.02
+SKU0422,BrandB Yogurt,BrandB,Dairy,Yogurt,500ml,bottle,C,5.08
+SKU0423,BrandC Shampoo,BrandC,Personal Care,Shampoo,250ml,pack,C,5.52
+SKU0424,BrandB Cola,BrandB,Beverages,Cola,200g,pack,A,6.29
+SKU0425,BrandC Chips,BrandC,Snacks,Chips,200g,unit,C,1.18
+SKU0426,BrandC Shampoo,BrandC,Personal Care,Shampoo,1L,bottle,C,1.77
+SKU0427,BrandC Juice,BrandC,Beverages,Juice,1kg,unit,B,5.46
+SKU0428,BrandA Water,BrandA,Beverages,Water,200g,pack,A,5.91
+SKU0429,BrandC Chocolate,BrandC,Snacks,Chocolate,1kg,unit,C,4.04
+SKU0430,BrandB Yogurt,BrandB,Dairy,Yogurt,500ml,unit,A,2.72
+SKU0431,BrandD Soap,BrandD,Personal Care,Soap,1kg,bottle,C,6.89
+SKU0432,BrandD Yogurt,BrandD,Dairy,Yogurt,500g,bottle,C,2.56
+SKU0433,BrandA Chips,BrandA,Snacks,Chips,500g,pack,C,4.24
+SKU0434,BrandA Milk,BrandA,Dairy,Milk,250ml,bottle,C,1.64
+SKU0435,BrandB Nuts,BrandB,Snacks,Nuts,500ml,pack,C,4.25
+SKU0436,BrandB Soap,BrandB,Personal Care,Soap,1kg,bottle,C,3.05
+SKU0437,BrandD Soap,BrandD,Personal Care,Soap,250ml,pack,C,6.59
+SKU0438,BrandD Nuts,BrandD,Snacks,Nuts,200g,bottle,A,6.62
+SKU0439,BrandD Water,BrandD,Beverages,Water,1kg,pack,C,1.41
+SKU0440,BrandC Juice,BrandC,Beverages,Juice,250ml,bottle,B,5.25
+SKU0441,BrandA Nuts,BrandA,Snacks,Nuts,250ml,pack,A,4.49
+SKU0442,BrandA Cheese,BrandA,Dairy,Cheese,500g,unit,B,4.73
+SKU0443,BrandA Juice,BrandA,Beverages,Juice,1L,pack,A,6.23
+SKU0444,BrandD Chips,BrandD,Snacks,Chips,1L,pack,C,6.81
+SKU0445,BrandD Shampoo,BrandD,Personal Care,Shampoo,250ml,bottle,C,1.78
+SKU0446,BrandC Nuts,BrandC,Snacks,Nuts,250ml,unit,C,1.15
+SKU0447,BrandB Deodorant,BrandB,Personal Care,Deodorant,1kg,unit,A,2.94
+SKU0448,BrandC Cola,BrandC,Beverages,Cola,200g,bottle,B,5.62
+SKU0449,BrandD Deodorant,BrandD,Personal Care,Deodorant,500ml,unit,C,3.68
+SKU0450,BrandB Shampoo,BrandB,Personal Care,Shampoo,1L,unit,B,6.98
+SKU0451,BrandD Cola,BrandD,Beverages,Cola,500g,unit,B,3.71
+SKU0452,BrandA Chips,BrandA,Snacks,Chips,250ml,bottle,A,5.77
+SKU0453,BrandA Juice,BrandA,Beverages,Juice,500ml,bottle,C,2.32
+SKU0454,BrandD Juice,BrandD,Beverages,Juice,500ml,bottle,A,5.08
+SKU0455,BrandB Chips,BrandB,Snacks,Chips,500g,pack,C,2.64
+SKU0456,BrandC Nuts,BrandC,Snacks,Nuts,500g,bottle,C,1.91
+SKU0457,BrandC Milk,BrandC,Dairy,Milk,500ml,bottle,B,6.66
+SKU0458,BrandC Chocolate,BrandC,Snacks,Chocolate,1L,unit,B,4.83
+SKU0459,BrandD Nuts,BrandD,Snacks,Nuts,500g,pack,B,2.65
+SKU0460,BrandD Juice,BrandD,Beverages,Juice,500g,pack,C,3.46
+SKU0461,BrandB Shampoo,BrandB,Personal Care,Shampoo,1L,pack,C,2.38
+SKU0462,BrandD Nuts,BrandD,Snacks,Nuts,500ml,unit,B,1.19
+SKU0463,BrandB Cheese,BrandB,Dairy,Cheese,200g,unit,C,3.21
+SKU0464,BrandB Shampoo,BrandB,Personal Care,Shampoo,200g,unit,C,3.84
+SKU0465,BrandC Milk,BrandC,Dairy,Milk,1kg,unit,C,2.11
+SKU0466,BrandA Shampoo,BrandA,Personal Care,Shampoo,500g,bottle,C,5.66
+SKU0467,BrandC Chips,BrandC,Snacks,Chips,200g,bottle,C,6.07
+SKU0468,BrandB Cola,BrandB,Beverages,Cola,500g,bottle,C,4.76
+SKU0469,BrandB Chocolate,BrandB,Snacks,Chocolate,1L,pack,A,1.2
+SKU0470,BrandB Cola,BrandB,Beverages,Cola,1kg,unit,C,4.7
+SKU0471,BrandB Soap,BrandB,Personal Care,Soap,200g,unit,C,3.89
+SKU0472,BrandD Yogurt,BrandD,Dairy,Yogurt,200g,bottle,A,1.75
+SKU0473,BrandC Yogurt,BrandC,Dairy,Yogurt,1L,bottle,C,3.58
+SKU0474,BrandA Shampoo,BrandA,Personal Care,Shampoo,1kg,pack,B,3.95
+SKU0475,BrandC Milk,BrandC,Dairy,Milk,1L,pack,A,4.49
+SKU0476,BrandB Water,BrandB,Beverages,Water,1kg,unit,B,5.79
+SKU0477,BrandD Juice,BrandD,Beverages,Juice,1L,unit,B,3.73
+SKU0478,BrandB Chocolate,BrandB,Snacks,Chocolate,200g,bottle,A,1.43
+SKU0479,BrandC Chocolate,BrandC,Snacks,Chocolate,1L,pack,B,3.88
+SKU0480,BrandB Shampoo,BrandB,Personal Care,Shampoo,1kg,pack,C,2.75
+SKU0481,BrandD Chips,BrandD,Snacks,Chips,500ml,bottle,C,6.16
+SKU0482,BrandA Water,BrandA,Beverages,Water,250ml,bottle,C,1.24
+SKU0483,BrandD Cola,BrandD,Beverages,Cola,500ml,bottle,B,1.63
+SKU0484,BrandB Chips,BrandB,Snacks,Chips,250ml,unit,B,6.92
+SKU0485,BrandA Shampoo,BrandA,Personal Care,Shampoo,500g,bottle,A,3.99
+SKU0486,BrandD Deodorant,BrandD,Personal Care,Deodorant,250ml,unit,C,5.21
+SKU0487,BrandA Soap,BrandA,Personal Care,Soap,500g,bottle,C,1.06
+SKU0488,BrandC Cheese,BrandC,Dairy,Cheese,250ml,bottle,B,4.11
+SKU0489,BrandA Soap,BrandA,Personal Care,Soap,250ml,bottle,A,3.1
+SKU0490,BrandB Chips,BrandB,Snacks,Chips,500g,bottle,A,1.47
+SKU0491,BrandC Yogurt,BrandC,Dairy,Yogurt,200g,unit,B,1.8
+SKU0492,BrandD Yogurt,BrandD,Dairy,Yogurt,500g,unit,C,5.14
+SKU0493,BrandA Chocolate,BrandA,Snacks,Chocolate,1kg,bottle,C,2.2
+SKU0494,BrandD Cola,BrandD,Beverages,Cola,200g,pack,A,1.63
+SKU0495,BrandA Soap,BrandA,Personal Care,Soap,1kg,unit,C,5.24
+SKU0496,BrandD Juice,BrandD,Beverages,Juice,1kg,pack,A,6.62
+SKU0497,BrandA Water,BrandA,Beverages,Water,500ml,unit,A,4.25
+SKU0498,BrandA Shampoo,BrandA,Personal Care,Shampoo,250ml,bottle,C,6.23
+SKU0499,BrandA Cheese,BrandA,Dairy,Cheese,500ml,pack,C,5.81
+SKU0500,BrandB Cola,BrandB,Beverages,Cola,1kg,pack,B,5.89
