@@ -80,8 +80,9 @@ Le rendu final inclut un **Executive Summary** pour le comité S&OP :
 
 <br>
 
-**Auteur :** Roberto Carlos Tientcheu Nouake
+**Auteur :** Roberto Carlos Tientcheu
 *Pour toute question ou collaboration :*
 * **📧 Email :** tnrc.2025@gmail.com
 * **🌐 LinkedIn :** https://www.linkedin.com/in/robertotientcheu
+
 
