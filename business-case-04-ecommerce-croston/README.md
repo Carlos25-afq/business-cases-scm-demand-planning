@@ -290,7 +290,7 @@ Livrable :
 
 ---
 
-## 💼 8. Datasets générés automatiquement
+## 💼 8. Datasets
 
 - **24 mois, 3000 SKUs**  
 - Série chronologique multi-pays  
@@ -310,6 +310,7 @@ Livrable :
 📧 tnrc.2025@gmail.com  
 
 ---
+
 
 
 
