@@ -57,8 +57,6 @@ This project reflects the **exact expectations** of real roles:
 
 ## 📊 2. Dataset Overview
 
-The dataset contains **over 1 million FMCG transactions** generated to replicate realistic business constraints:
-
 ### **Key dataset features**
 | Feature | Description |
 |--------|-------------|
@@ -182,7 +180,6 @@ Demand Planner, S&OP Analyst, or Supply Chain Data Analyst.
 Dataset is delivered in CSV format, compatible with Python, R, Power BI, Tableau and Excel.
 
 🧪 4. Training Instructions (Full Business Case)
-Designed like a professional workshop — step-by-step.
 
 🟦 *Exercise 1 : Exploratory Data Analysis (EDA)*
 
@@ -380,5 +377,6 @@ This dataset is ideal for:
 - Kaggle Competitions
 
 - Supply Chain Hackathons
+
 
 
